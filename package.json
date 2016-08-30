@@ -1,0 +1,10 @@
+{
+  "name": "risesdk",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Nathan Burchill <nathan@rise.vision>",
+  "dependencies": {
+    "assert" : "1.4.1",
+    "request" : "2.74.0"
+  }
+}
