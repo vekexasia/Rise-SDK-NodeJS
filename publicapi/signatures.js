@@ -14,11 +14,14 @@ module.exports = function(sendRequest){
       method : 'PUT',
       body {
         secret : secret,
-        secondSecret : secondSecret,
-        publicKey : publicKey
+        secondSecret : secondSecret
       }
     }
-
+    if(typeof publicKey === "function"){
+      callback = publicKey;
+    } else {
+      options.publicKey = publicKey;
+    }
     sendRequest(options, callback);
   }
 

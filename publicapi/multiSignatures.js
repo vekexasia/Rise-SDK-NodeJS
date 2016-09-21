@@ -1,5 +1,5 @@
 module.exports = function(sendRequest){
-  this.getPending = function(id, callback){
+  this.getPending = function(publicKey, callback){
     var options = {
       url : '/multisignatures/pending?publicKey=' + publicKey,
       method : 'GET'
@@ -8,7 +8,7 @@ module.exports = function(sendRequest){
     sendRequest(options, callback);
   }
 
-  this.create = function(secret, lifetime, min, keysGroup callback){
+  this.create = function(secret, lifetime, min, keysGroup, callback){
     var options = {
       url : '/multisignatures',
       method : 'PUT',
@@ -37,7 +37,7 @@ module.exports = function(sendRequest){
     sendRequest(options, callback);
   }
 
-  this.getAccounts = function(id, callback){
+  this.getAccounts = function(publicKey, callback){
     var options = {
       url : '/multisignatures/accounts?publicKey' + publicKey,
       method : 'GET'

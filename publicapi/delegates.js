@@ -22,7 +22,7 @@ module.exports = function(sendRequest){
     sendRequest(options, callback);
   }
 
-  this.getList = function(options, callback){
+  this.getList = function(param, callback){
     var query = '';
     if(param.limit){
       query = query.addToQuery('limit', param.limit)
