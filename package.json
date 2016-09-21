@@ -1,6 +1,6 @@
 {
   "name": "risesdk",
-  "version": "0.1.0",
+  "version": "0.7.0",
   "private": true,
   "author": "Nathan Burchill <nathan@rise.vision>",
   "dependencies": {
