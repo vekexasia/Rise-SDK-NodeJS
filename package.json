@@ -1,8 +1,30 @@
 {
   "name": "risesdk",
   "version": "0.7.0",
-  "private": true,
-  "author": "Nathan Burchill <nathan@rise.vision>",
+  "description": "Rise SDK built in Node.js",
+  "main": "risesdk.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RiseVision/Rise-SDK-NodeJS"
+  },
+  "keywords": [
+    "rise",
+    "vision",
+    "sdk",
+    "crypto",
+    "currency",
+    "risevision",
+    "cryptocurrency",
+    "alt",
+    "coin",
+    "altcoin"
+  ],
+  "bugs": {
+    "url": "https://github.com/RiseVision/Rise-SDK-NodeJS/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": "Don't Panic <nathan.burchill@dontpanic.consulting>",
   "dependencies": {
     "assert" : "1.4.1",
     "request" : "2.74.0"
