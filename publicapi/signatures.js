@@ -12,7 +12,7 @@ module.exports = function(sendRequest){
     var options = {
       url : '/signatures',
       method : 'PUT',
-      body {
+      body : {
         secret : secret,
         secondSecret : secondSecret
       }

@@ -30,5 +30,5 @@ module.exports = {
   blocks : blocks(sendRequest),
   signatures : signatures(sendRequest),
   delegates : delegates(sendRequest),
-  multiSignatures multiSignatures(sendRequest)
+  multiSignatures : multiSignatures(sendRequest)
 }
