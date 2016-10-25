@@ -4,10 +4,18 @@
 
 Rise meets Node.js
 
-The Rise Node.js SDK is cross platform library based on Rise (https://rise.vision) and entirely written in Node.js. Check the github wiki for the full documentation.
+The Rise Node.js SDK is cross platform library based on Rise (https://rise.vision) and entirely written in Node.js. Check the github wiki for the full documentation. (https://github.com/RiseVision/Rise-SDK-NodeJS/wiki)
 
 #### Third party dependencies
 1. request
+
+## Installation instructions
+
+The easiest way to install the Rise Node.js SDK is using npm.
+
+    npm install risesdk
+
+(https://www.npmjs.com/package/risesdk)
 
 ## Public api
 
